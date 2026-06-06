@@ -42,8 +42,8 @@
 
 |  |  |
 |---|---|
-| <img src="https://check-risk.ru/storage/619/OpPh_Lzn0xh9M9k.webp" alt="Скриншот главной панели управления Check Risk WAF" width="500"> | <img src="https://check-risk.ru/storage/620/OpPh_BcGDPFOTmL.webp" alt="Скриншот панели настройки приложения Check Risk WAF" width="500"> |
-| <img src="https://check-risk.ru/storage/621/OpPh_A1hdKOVAsY.webp" alt="Скриншот панели управления инцидентами Check Risk WAF" width="500"> | <img src="https://check-risk.ru/storage/622/OpPh_5mvEvGLPw4.webp" alt="Скриншот панели управления сетевой атакой Check Risk WAF" width="500"> |
+| <img src="img/screenshot_1.png" alt="Скриншот главной панели управления Check Risk WAF" width="500"> | <img src="img/screenshot_2.png" alt="Скриншот панели настройки приложения Check Risk WAF" width="500"> |
+| <img src="img/screenshot_3.png" alt="Скриншот панели управления инцидентами Check Risk WAF" width="500"> | <img src="img/screenshot_4.png" alt="Скриншот панели управления сетевой атакой Check Risk WAF" width="500"> |
 
 ## Check Risk WAF состоит из 3-х основных модулей:
 
@@ -90,28 +90,28 @@
       <strong>Автоматическая проверка</strong><br><br>
       Проверка проходит без действий пользователя. Страница проверки запускает JavaScript, выполняет лёгкую браузерную проверку и получает проверочный cookie. Подходит для минимального влияния на обычных посетителей.
     </td>
-    <td align="center" width="50%"><img src="https://check-risk.ru/build/assets/antibot-auto-0nAJJici.gif" width="306" height="225"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_1.gif" width="306" height="225"></td>
   </tr>
   <tr>
     <td width="50%">
       <strong>Проверка действием (упрощённая)</strong><br><br>
       Пользователь видит кнопку «Я не робот». После нажатия запускается такая же проверка браузера, как в автоматическом режиме, и при успехе выдаётся проверочный cookie. Подходит, когда нужно явное действие пользователя.
     </td>
-    <td align="center" width="50%"><img src="https://check-risk.ru/build/assets/antibot-button-BJo-J5gm.gif" width="306" height="225"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_2.gif" width="306" height="225"></td>
   </tr>
   <tr>
     <td width="50%">
       <strong>Проверка действием (капча)</strong><br><br>
       Пользователь проходит слайдер-пазл. Система выдаёт задание, пользователь двигает ползунок, а сервер проверяет правильность позиции. При успешном решении выдаётся проверочный cookie. Это самый строгий ручной режим проверки.
     </td>
-    <td align="center" width="50%"><img src="https://check-risk.ru/build/assets/antibot-slide-1vpxFdtn.gif" width="306" height="245"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_3.gif" width="306" height="245"></td>
   </tr>
   <tr>
     <td width="50%">
       <strong>Интеллектуальная проверка</strong><br><br>
       Система сама выбирает уровень проверки по поведению посетителя: для доверенных пользователей показывает минимальную проверку, для сомнительных кнопку или пазл. Подходит как режим по умолчанию, когда нужен баланс между удобством и защитой.
     </td>
-    <td align="center" width="50%"><img src="https://check-risk.ru/storage/623/OpPh_VWkGYRy7lu.webp" width="308" height="243"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_4.gif" width="308" height="243"></td>
   </tr>
 </table>
 
@@ -138,7 +138,7 @@
 
 <div align="center">
   <div style="background: #ffffff; border: 1px solid #d0d7de; border-radius: 24px; padding: 24px; margin: 16px 0; box-shadow: 0 8px 28px rgba(27, 31, 36, 0.08);">
-    <img src="https://check-risk.ru/images/welcome/topology-1.svg" alt="Check Risk WAF SaaS — облачная защита веб-приложений и инфраструктуры" width="100%">
+    <img src="img/topology-1.svg" alt="Check Risk WAF SaaS — облачная защита веб-приложений и инфраструктуры" width="100%">
   </div>
 </div>
 
@@ -214,8 +214,8 @@
 
 |  |  |
 |---|---|
-| <img src="https://check-risk.ru/storage/619/OpPh_Lzn0xh9M9k.webp" alt="Screenshot of the Check Risk WAF main dashboard" width="500"> | <img src="https://check-risk.ru/storage/620/OpPh_BcGDPFOTmL.webp" alt="Screenshot of the Check Risk WAF application settings panel" width="500"> |
-| <img src="https://check-risk.ru/storage/621/OpPh_A1hdKOVAsY.webp" alt="Screenshot of the Check Risk WAF incident management panel" width="500"> | <img src="https://check-risk.ru/storage/622/OpPh_5mvEvGLPw4.webp" alt="Screenshot of the Check Risk WAF network attack management panel" width="500"> |
+| <img src="img/screenshot_1.png" alt="Screenshot of the Check Risk WAF main dashboard" width="500"> | <img src="img/screenshot_2.png" alt="Screenshot of the Check Risk WAF application settings panel" width="500"> |
+| <img src="img/screenshot_2.png" alt="Screenshot of the Check Risk WAF incident management panel" width="500"> | <img src="img/screenshot_4.png" alt="Screenshot of the Check Risk WAF network attack management panel" width="500"> |
 
 ## Check Risk WAF consists of 3 main modules:
 
@@ -262,28 +262,28 @@ The direct implementation of anti-bot protection is available in 4 variations, w
       <strong>Automatic check</strong><br><br>
       The check is performed without user action. The verification page runs JavaScript, performs a lightweight browser check, and receives a verification cookie. Suitable for minimal impact on regular visitors.
     </td>
-    <td align="center" width="50%"><img src="https://check-risk.ru/build/assets/antibot-auto-0nAJJici.gif" width="306" height="225"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_1.gif" width="306" height="225"></td>
   </tr>
   <tr>
     <td width="50%">
       <strong>Action-based check (simplified)</strong><br><br>
       The user sees an “I am not a robot” button. After clicking, the same browser check as in automatic mode starts, and if successful, a verification cookie is issued. Suitable when an explicit user action is required.
     </td>
-    <td align="center" width="50%"><img src="https://check-risk.ru/build/assets/antibot-button-BJo-J5gm.gif" width="306" height="225"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_2.gif" width="306" height="225"></td>
   </tr>
   <tr>
     <td width="50%">
       <strong>Action-based check (captcha)</strong><br><br>
       The user completes a slider puzzle. The system issues a task, the user moves the slider, and the server verifies the correct position. After successful completion, a verification cookie is issued. This is the strictest manual verification mode.
     </td>
-    <td align="center" width="50%"><img src="https://check-risk.ru/build/assets/antibot-slide-1vpxFdtn.gif" width="306" height="245"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_3.gif" width="306" height="245"></td>
   </tr>
   <tr>
     <td width="50%">
       <strong>Intelligent check</strong><br><br>
       The system chooses the verification level based on visitor behavior: trusted users receive a minimal check, while suspicious users see a button or puzzle. Suitable as the default mode when a balance between usability and protection is needed.
     </td>
-    <td align="center" width="50%"><img src="https://check-risk.ru/storage/623/OpPh_VWkGYRy7lu.webp" width="308" height="243"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_4.gif" width="308" height="243"></td>
   </tr>
 </table>
 
@@ -310,7 +310,7 @@ The module provides protection against:
 
 <div align="center">
   <div style="background: #ffffff; border: 1px solid #d0d7de; border-radius: 24px; padding: 24px; margin: 16px 0; box-shadow: 0 8px 28px rgba(27, 31, 36, 0.08);">
-    <img src="https://check-risk.ru/images/welcome/topology-1.svg" alt="Check Risk WAF SaaS — cloud protection for web applications and infrastructure" width="100%">
+    <img src="img/topology-1.svg" alt="Check Risk WAF SaaS — cloud protection for web applications and infrastructure" width="100%">
   </div>
 </div>
 
