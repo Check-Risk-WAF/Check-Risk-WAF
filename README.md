@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://check-risk.ru/" target="_blank" rel="noopener noreferrer">
-    <img src="https://check-risk.ru/build/assets/logo-BYel0QdS.svg" alt="Check Risk" width="230">
+    <img src="img/logo.svg" alt="Check Risk" width="230">
   </a>
 
   <h1>Check Risk WAF</h1>
@@ -24,9 +24,6 @@
     <img alt="AI Assistant" title="AI Assistant" src="https://img.shields.io/static/v1?label=AI&message=Assistant&color=8957e5&style=for-the-badge">
     <img alt="Anti-bot / Антибот — OSI L7" title="Anti-bot / Антибот — OSI L7" src="https://img.shields.io/static/v1?label=Anti-bot%20%2F%20%D0%90%D0%BD%D1%82%D0%B8%D0%B1%D0%BE%D1%82&message=OSI%20L7&color=f97316&style=for-the-badge">
     <img alt="DDoS Protection — OSI L3 | L4" title="DDoS Protection — OSI L3 | L4" src="https://img.shields.io/static/v1?label=DDoS%20Protection&message=OSI%20L3%20%7C%20L4&color=da3633&style=for-the-badge">
-  </p>
-  <p>
-    <sub><strong>OSI:</strong> WAF — L7 · Anti-bot / Антибот — L7 · DDoS Protection — L3/L4. SLA и AI Assistant — сервисные возможности, не уровни OSI.</sub>
   </p>
 </div>
 
