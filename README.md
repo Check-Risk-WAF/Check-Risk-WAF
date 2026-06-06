@@ -111,7 +111,7 @@
       <strong>Интеллектуальная проверка</strong><br><br>
       Система сама выбирает уровень проверки по поведению посетителя: для доверенных пользователей показывает минимальную проверку, для сомнительных кнопку или пазл. Подходит как режим по умолчанию, когда нужен баланс между удобством и защитой.
     </td>
-    <td align="center" width="50%"><img src="img/screenshot_antibot_4.gif" width="308" height="243"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_4.webp" width="308" height="243"></td>
   </tr>
 </table>
 
@@ -283,7 +283,7 @@ The direct implementation of anti-bot protection is available in 4 variations, w
       <strong>Intelligent check</strong><br><br>
       The system chooses the verification level based on visitor behavior: trusted users receive a minimal check, while suspicious users see a button or puzzle. Suitable as the default mode when a balance between usability and protection is needed.
     </td>
-    <td align="center" width="50%"><img src="img/screenshot_antibot_4.gif" width="308" height="243"></td>
+    <td align="center" width="50%"><img src="img/screenshot_antibot_4.webp" width="308" height="243"></td>
   </tr>
 </table>
 
