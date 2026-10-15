@@ -1,3 +1,5 @@
+<a id="russian"></a>
+
 <div align="center">
   <a href="https://check-risk.ru/">
     <img src="assets/logo.gif" alt="Check Risk" width="230">
@@ -30,6 +32,8 @@
     <a href="#on-premise">Установка</a> ·
     <a href="#saas">SaaS</a>
   </p>
+
+  <p><a href="#russian"><strong>Русский</strong></a> · <a href="#english">English</a></p>
 </div>
 
 <a id="protection"></a>
@@ -273,3 +277,285 @@ Check Risk включает в себя конфигурацию выбора у
 **[Подключить SaaS →](https://check-risk.ru/)**
 
 **[Сайт Check Risk](https://check-risk.ru/)** · [Документация](https://check-risk.ru/docs) · [Презентация](https://check-risk.ru/check-risk.ru_presentation.pdf) · [Брошюра](https://check-risk.ru/check-risk.ru_brochure.pdf)
+
+<hr>
+
+<a id="english"></a>
+
+<div align="center">
+  <a href="https://check-risk.ru/">
+    <img src="assets/logo.gif" alt="Check Risk" width="230">
+  </a>
+
+  <h1>Check Risk WAF</h1>
+
+  <p><strong>An integrated Russian solution for web application and infrastructure protection</strong></p>
+  <p>WAF, Anti-Bot, Anti-DDoS, and an AI assistant. In the Check Risk cloud or on your own server.</p>
+
+  <p>
+    <a href="#saas-en"><img src="assets/badge-saas-en.svg" alt="SaaS — Cloud protection" width="198" height="30"></a>
+    <a href="#on-premise-en"><img src="assets/badge-onpremise-en.svg" alt="ON-PREMISE — Local protection" width="250" height="30"></a>
+    <a href="#protection-en"><img src="assets/badge-security.gif" alt="WAF, Anti-Bot, and Anti-DDoS"></a>
+    <a href="#ai-en"><img src="assets/badge-ai-en.svg" alt="AI: attack analysis" width="174" height="28"></a>
+  </p>
+
+  <p>
+    <a href="https://check-risk.ru/"><img src="assets/registry.gif" alt="Listed in the Russian Software Registry" width="208"></a><br>
+    <strong>Listed in the Russian Software Registry maintained by Russia's Ministry of Digital Development.</strong><br>
+    <a href="https://reestr.digital.gov.ru/reestr/7075261/">Registry entry No. 32239 dated February 17, 2026</a>
+  </p>
+
+  <p>
+    <a href="https://check-risk.ru/"><strong>Website</strong></a> ·
+    <a href="https://check-risk.ru/docs"><strong>Documentation</strong></a> ·
+    <a href="#protection-en">Protection</a> ·
+    <a href="#features-en">Features</a> ·
+    <a href="#interface-en">Interface</a> ·
+    <a href="#on-premise-en">Installation</a> ·
+    <a href="#saas-en">SaaS</a>
+  </p>
+
+  <p><a href="#russian">Русский</a> · <a href="#english"><strong>English</strong></a></p>
+</div>
+
+<a id="protection-en"></a>
+
+## Three core protection modules
+
+**Check Risk WAF** protects websites, web applications, and APIs. It inspects incoming HTTP/HTTPS traffic as a reverse proxy and forwards filtered requests to protected applications. Connecting the product requires no changes to your website's code.
+
+| Module | Protection |
+| --- | --- |
+| **WAF** | OWASP Top 10, SQL injection, XSS, command execution, file inclusion, path traversal, protocol anomalies, and other attacks on web applications |
+| **Anti-Bot** | Automated requests, scanning, scraping, and spam. Browser checks, a button challenge, a puzzle CAPTCHA, and intelligent challenge selection |
+| **Anti-DDoS** | Abnormal traffic loads, mass connections, and malicious sources. Automatic blocking, IP groups, and attack episode analysis |
+
+Application protection is complemented by the built-in **Rate Limit** module, regularly updated feeds of malicious IP addresses and User-Agents, search engine bot verification, and custom security rules. Filtering conditions can be set by application, URL, method, headers, request body, client IP, and geographic location. This approach provides comprehensive web application security.
+
+Check Risk lets you select a protection level for all applications or for an individual website. Monitoring mode allows you to review WAF detections before enabling blocking. In SaaS deployments, network filtering runs directly in the Check Risk infrastructure. With an on-premise installation, web applications are protected locally, including within isolated security environments.
+
+<a id="features-en"></a>
+
+## Check Risk WAF features
+
+**✓** — feature available · **✗** — feature unavailable in this deployment option.
+
+| Feature | Description | On-premise | SaaS |
+| --- | --- | :---: | :---: |
+| **Connecting web applications to WAF protection** | Create and manage protected domains and applications, including ports, upstream servers, SSL certificates, and individual protection settings. | **✓** | **✓** |
+| **Domain ownership verification** | Verify domain ownership before connecting to cloud protection. | **✗** | **✓** |
+| **Protection levels** | Configure filtering intensity from standard to maximum, globally or for a specific application. | **✓** | **✓** |
+| **Traffic proxying and routing** | Receive HTTP/HTTPS traffic, inspect requests, and forward clean traffic to application servers. | **✓** | **✓** |
+| **Protection against common web attacks** | Detect and block XSS, SQL injection, file inclusion attacks, remote code execution, scanners, and protocol anomalies. | **✓** | **✓** |
+| **Custom WAF rules** | Create allow, block, and exception rules with conditions based on IP, geography, application, URL, host, headers, parameters, request body, and HTTP method. | **✓** | **✓** |
+| **Exceptions and detection tuning** | Configure exceptions for individual rules and scenarios to reduce false positives without disabling protection entirely. | **✓** | **✓** |
+| **IP groups and address lists** | Create groups of IP addresses and networks for use in allow, block, and exception rules. | **✓** | **✓** |
+| **Geographic filtering** | Use the client's country in protection rules and traffic analytics. | **✓** | **✓** |
+| **Anti-Bot protection** | Check suspicious automated traffic and distinguish bots from legitimate users. | **✓** | **✓** |
+| **Trusted bot configuration** | Control how verified bots are handled: allow all, block all, or allow only a selected list. | **✓** | **✓** |
+| **Conditional Anti-Bot checks** | Enable Anti-Bot checks only under specified conditions, such as particular URLs, methods, parameters, headers, or visitor groups. | **✓** | **✓** |
+| **Request rate limiting (Rate Limit)** | Define request limits by application, client IP, and request conditions. | **✓** | **✓** |
+| **Client IP source configuration** | Select a trusted source for the real client IP and define the action for an untrusted proxy chain. | **✓** | **✓** |
+| **TLS/SSL settings** | Manage SSL protocols, cipher suites, HTTP/1, HTTP/2, HTTPS enforcement, and HSTS. | **✓** | **✓** |
+| **Custom SSL certificate uploads** | Add your own certificates and keys with validation of their format, key and certificate match, and expiration dates. | **✓** | **✓** |
+| **Let's Encrypt certificate issuance** | Issue and automatically renew certificates for public domains. Wildcard certificates through managed DNS are available in SaaS. | **✓** | **✓** |
+| **Managed DNS** | Create and maintain DNS zones for domains connected to WAF, with delegation and zone status checks. | **✗** | **✓** |
+| **DNS record management** | Create, modify, and disable common DNS record types, including A, AAAA, CNAME, MX, NS, TXT, CAA, SRV, and others. | **✗** | **✓** |
+| **DNS zone import and export** | Import zone files, compare changes, export the target zone state, and track the status of applied changes. | **✗** | **✓** |
+| **Automatic WAF DNS record synchronization** | Automatically create and update service DNS records that route domain traffic through WAF. | **✗** | **✓** |
+| **Public test domains** | Obtain a test address to verify traffic through WAF before switching the primary domain. | **✗** | **✓** |
+| **HTTP header configuration** | Add or remove request and response headers for proxying, compatibility, and stronger security. | **✓** | **✓** |
+| **Proxy header support** | Configure forwarding of the original protocol, host, and client IP chain when proxying requests. | **✓** | **✓** |
+| **Response compression** | Enable response compression to improve data transfer efficiency. | **✓** | **✓** |
+| **SSE support** | Support streaming events for applications that require persistent HTTP connections. | **✓** | **✓** |
+| **Custom error pages** | Customize text and HTML pages for blocked requests, rate limit violations, gateway errors, timeouts, and Anti-Bot checks. | **✓** | **✓** |
+| **Event logging** | Collect request and security logs with details about the domain, client, request, status, triggered rule, and system action. | **✓** | **✓** |
+| **Traffic and attack analytics** | Aggregate metrics for requests, visitors, blocks, errors, countries, pages, referral sources, User-Agents, and IP addresses. | **✓** | **✓** |
+| **WAF dashboard** | Display key protection metrics: requests, visitors, blocks, errors, Anti-Bot checks, load, and top IP addresses, countries, pages, and status codes. | **✓** | **✓** |
+| **Attack and episode analysis** | Group related attack events with their duration, event count, unique IP count, and blocking activity. | **✓** | **✓** |
+| **HTTP request details** | Open an attack event to view request details, rule messages, response status, and the system's action. | **✓** | **✓** |
+| **Creating rules from attack events** | Create a new rule or exception based on a specific event in the attack log. | **✓** | **✓** |
+| **AI attack analysis** | Analyze a selected attack event, identify its nature, and prepare a recommendation or a rule for a false positive. | **✓** | **✓** |
+| **SIEM integration** | Forward request and security events to external monitoring and event correlation systems. | **✓** | **✓** |
+| **Global and local settings** | Configure protection settings globally for a user or individually for an application. | **✓** | **✓** |
+| **Sub-user permissions** | Control access to websites, statistics, attacks, rules, IP groups, and settings; DNS access is available in SaaS. | **✓** | **✓** |
+| **Plan limits and additional QPS** | Account for the subscription plan, base throughput limit, and additional paid QPS. | **✗** | **✓** |
+| **Customer WAF clusters** | Dedicated cloud clusters for customers with separate operational and data storage settings. | **✗** | **✓** |
+
+<a id="interface-en"></a>
+
+## Control panel: key features
+
+### Attacks: detailed analytics
+
+The system provides detailed incident analytics. Open an incident, view its details, and hover over an underlined fragment to see the rule that was triggered. A single log shows the application, IP address, geographic location, original request, and protection action. Filters help you quickly find the event you need, while the cURL view lets you reproduce the request.
+
+[![Five attack types: opening details, highlighting requests, and viewing rule tooltips](assets/attacks.gif)](assets/attacks.gif)
+
+<a id="ai-en"></a>
+
+### AI assistant: help with incident analysis
+
+The system includes an AI assistant for threat analysis. Open the incident details and click **"Ask AI"**. The assistant will analyze the request and explain why the rule was triggered. In the example, a SQL fragment appears in an answer to a training exercise, and the AI suggests a targeted exception.
+
+[![AI: analyzing a false positive, adding an exception, and viewing the resulting rule](assets/ai-analysis.gif)](assets/ai-analysis.gif)
+
+<a id="rules-en"></a>
+
+### Rules: configure blocking and exceptions
+
+The system provides flexible tools for creating blocking rules and exceptions. Create a group, select an application, and add rules within it. Group conditions apply to all nested rules, so there is no need to select the website again. The visual editor supports AND/OR logic, JSONPath, XPath, headers, cookies, and request parameters.
+
+[![Creating a group, selecting a website, and adding an exception rule within the group](assets/rule-groups.gif)](assets/rule-groups.gif)
+
+### Rate Limit: control request frequency
+
+The Rate Limit module lets you create rules that limit the number of requests within a time window. Create a rule, set its conditions, and define request limits for login, search, or API endpoints. Then open the statistics: charts show checks and blocks, while geographic data shows the distribution by country, region, and city.
+
+[![Rate Limit: creating a rule, reviewing blocking trends, and exploring geographic data](assets/rate-limit.gif)](assets/rate-limit.gif)
+
+### Anti-DDoS: attacks, sources, and reasons for blocking
+
+The system analyzes DoS/DDoS attacks at L4 and L7 and groups related events into episodes. Open the details on the analytics page to see the duration, number of blocked connections, and attacking IP addresses with their geographic locations. This helps you quickly assess the scale of the load and understand which protection mechanism was triggered.
+
+| Mechanism | Purpose |
+| --- | --- |
+| **Automatic blocking** | Respond to abnormal activity from a source |
+| **SPA-IP** | Filter addresses using a database of malicious sources |
+| **IP groups** | Custom lists and access policies |
+| **Episode statistics** | Connections, IP addresses, countries, and attack timing |
+
+[![Anti-DDoS: attack episodes and a detailed table of attacking IP addresses with geographic data](assets/antiddos-attacks.gif)](assets/antiddos-attacks.gif)
+
+<a id="antibot-en"></a>
+
+### Anti-Bot: visitor-friendly checks
+
+The system includes an advanced Anti-Bot module. You can configure checks for the entire application or for individual requests. Verified search engine bots can have a separate policy.
+
+**Configuring Anti-Bot:** enable protection and select an operating mode. Configure bot access rules for your application. For example, to allow downloads of `/downloads/catalog.pdf`, set the condition to "Skip on match". Save the settings and reopen them to verify the result.
+
+[![Configuring Anti-Bot: enabling protection, selecting Button mode, allowing Google and Yandex bots, and adding a file download exception](assets/antibot-settings.gif)](assets/antibot-settings.gif)
+
+**Four visitor verification modes:**
+
+<table>
+  <tr>
+    <td width="50%">
+      <strong>Automatic verification</strong><br><br>
+      Verification requires no user action. The challenge page runs JavaScript, performs a lightweight browser check, and obtains a verification cookie. This mode minimizes the impact on regular visitors.
+    </td>
+    <td align="center" width="50%"><img src="assets/antibot-auto.gif" alt="Automatic browser verification" width="306" height="225"></td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>Action-based verification (simplified)</strong><br><br>
+      The user sees an "I'm not a robot" button. Clicking it starts the same browser check as automatic mode, and a verification cookie is issued on success. This mode is suitable when an explicit user action is required.
+    </td>
+    <td align="center" width="50%"><img src="assets/antibot-button.gif" alt="Verification with an I'm not a robot button" width="306" height="225"></td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>Action-based verification (CAPTCHA)</strong><br><br>
+      The user solves a slider puzzle. The system presents a challenge, the user moves the slider, and the server checks whether the position is correct. A verification cookie is issued when the puzzle is solved successfully. This is the strictest manual verification mode.
+    </td>
+    <td align="center" width="50%"><img src="assets/antibot-puzzle.gif" alt="Verification with a puzzle CAPTCHA" width="306" height="245"></td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>Intelligent verification</strong><br><br>
+      The system selects the verification level based on visitor behavior: trusted users receive a minimal check, while suspicious visitors receive a button or puzzle challenge. This is a suitable default mode when balancing convenience and protection.
+    </td>
+    <td align="center" width="50%"><img src="assets/antibot-intelligent.gif" alt="Intelligent challenge selection" width="308" height="243"></td>
+  </tr>
+</table>
+
+### Dashboard: an overview of traffic and protection
+
+The system brings all network activity together on one screen: requests, blocks, HTTP status codes, geographic data, popular pages, and referral sources.
+
+[![Dashboard: User-Agent details and switching between the Anti-DDoS and Anti-Bot tabs](assets/dashboard.gif)](assets/dashboard.gif)
+
+### User management
+
+Add team members and grant access to the required sections and applications. Settings, statistics, and attack viewing have separate permissions.
+
+[![Users: creating an account and changing access permissions](assets/users.gif)](assets/users.gif)
+
+### Updating an on-premise installation from the panel
+
+Receive a notification about a new version, open Updates, and start the installation. The interface displays download progress, package verification, component installation, and service checks. Updates can also be scheduled.
+
+[![Updates: notification, confirmation, and installation progress](assets/updates.gif)](assets/updates.gif)
+
+### Quickly adding an application
+
+Enter the domain and application server address. If the upstream port is incorrect, the availability check will report an error and offer to change the address. Correct the port, run the check again, and complete the setup. For HTTPS, you can upload your own certificate or issue a Let's Encrypt certificate with automatic renewal.
+
+[![Adding an application: an incorrect upstream port, correction, and successful connection](assets/applications.gif)](assets/applications.gif)
+
+### Global and local security policies
+
+The system lets you define a common policy for all applications and a local policy for each individual web application. Policy inheritance allows you to manage the shared configuration centrally while accounting for each application's requirements.
+
+[![Slow scrolling through global and local Check Risk WAF settings](assets/settings.gif)](assets/settings.gif)
+
+### Custom error pages
+
+The system includes an editor for system pages. You can change the HTML markup and response text in an editor with a preview.
+
+[![403 error editor: changing HTML, previewing, and saving the page](assets/custom-errors.gif)](assets/custom-errors.gif)
+
+The default block page contains request and server IDs, allowing support to locate the event in the log.
+
+[![Default Check Risk WAF block page: HTTP 403](assets/blocked-403.gif)](assets/blocked-403.gif)
+
+### On-premise appliance networking
+
+Manage interfaces, addresses, the gateway, DNS, and the panel address from your browser. When network settings change, the system checks connectivity and restores the previous configuration if the connection is not confirmed.
+
+[![Appliance networking: manual configuration with addresses, gateway, and DNS filled in](assets/network.gif)](assets/network.gif)
+
+<a id="on-premise-en"></a>
+
+## Quick on-premise installation
+
+Deploy Check Risk WAF on your own server or virtual machine running **Ubuntu Server 24.04 LTS, x86_64**. Filtering, the control panel, and logs will run within your infrastructure. The distribution archive includes the required service images.
+
+Run the following on the prepared server:
+
+```bash
+(
+  install_dir=$(mktemp -d "$HOME/check-risk-install.XXXXXX") &&
+  cd "$install_dir" &&
+  curl -fLO --retry 3 https://check-risk.ru/cr-waf_install.tar.gz &&
+  curl -fLO --retry 3 https://check-risk.ru/cr-waf_install.tar.gz.sha256 &&
+  sha256sum --check --strict cr-waf_install.tar.gz.sha256 &&
+  tar -xzf cr-waf_install.tar.gz &&
+  cd cr-waf_install &&
+  sudo ./installer --lang=en
+)
+```
+
+Open the HTTPS link shown in the console and complete the wizard: language, network, panel settings, and installation. The final page will display the panel address, administrator username, and password.
+
+[![Installing Check Risk WAF: from the console command to the panel address, username, and password](assets/installer.gif)](assets/installer.gif)
+
+**[Detailed installation documentation →](https://check-risk.ru/docs/installation-check-risk-waf-all-in-one)**
+
+<a id="saas-en"></a>
+
+## SaaS: protection in the Check Risk cloud
+
+Connect your website without installing or maintaining WAF servers. Add an application in your account, specify the upstream server, and route traffic through Check Risk. Our team maintains the cloud infrastructure and updates; you manage rules, events, and settings through the web panel.
+
+| Connection option | How it works |
+| --- | --- |
+| **Cloud DNS management** | Delegate your zone to `ns1.check-risk.ru`, `ns2.check-risk.ru`, and `ns3.check-risk.ru`. The service manages the records that route traffic through WAF |
+| **Dedicated infrastructure** | At least three virtual machines across three data centers, with static IPv4 addresses. DNS records remain under your control |
+
+The cloud solution is deployed across **three data centers** with a **99.95% SLA**. Your account provides access to DNS zones, records, and configuration import and export. Choose SaaS to get started without maintaining protection servers, or on-premise to deploy the product within your own infrastructure.
+
+**[Get started with SaaS →](https://check-risk.ru/)**
+
+**[Check Risk website](https://check-risk.ru/)** · [Documentation](https://check-risk.ru/docs) · [Presentation](https://check-risk.ru/check-risk.ru_presentation.pdf) · [Brochure](https://check-risk.ru/check-risk.ru_brochure.pdf)
